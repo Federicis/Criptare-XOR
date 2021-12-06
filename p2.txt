@@ -1,0 +1,26 @@
+with open('cri.txt') as f:
+    s = f.readlines()
+
+with open('dec.txt') as f:
+    t = f.readlines()
+f = open('output',"w")
+
+n = len(s)
+r = s[0]
+j = t[0]
+ct = 0
+while r != "":
+	v = r
+	k = j
+	for i in range(0,len(v)-1):
+   	 	x = ord(v[i])
+   	 	y = ord(k[i])
+   	 	x = x ^ y
+   	 	f.write(chr(x))
+	f.write("\n")
+	ct += 1
+	if ct>=n:
+		break
+	else:
+		r = s[ct]
+		j = t[ct]
