@@ -16,4 +16,4 @@ python decrypt.py <parola> <fisier_binar_input> <fisier_text_output>
 ## Continuarea proiectului
 
 In continuare, am spart parola echipei UTF-8 abuser, care este *ASC_vrem_nota_10*.
-Intr-o prima etapa, am folosit fisierele input.txt si output, codul scris fiind in fisierul *p2.txt*.
+Intr-o prima etapa, am folosit fisierele input.txt si output, codul scris fiind in fisierul *p2.txt*. Am atasat si fisierul *out.txt*, in care se afla parola.
