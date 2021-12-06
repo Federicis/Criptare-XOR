@@ -17,3 +17,4 @@ python decrypt.py <parola> <fisier_binar_input> <fisier_text_output>
 
 In continuare, am spart parola echipei UTF-8 abuser, care este *ASC_vrem_nota_10*.
 Intr-o prima etapa, am folosit fisierele input.txt si output, codul scris fiind in fisierul *p2.txt*. Am atasat si fisierul *out*, in care se afla parola.
+Cat despre a doua parte, nu am putut implementa un algoritm intrucat echipa adversa nu a respectat cerintele inputului.
