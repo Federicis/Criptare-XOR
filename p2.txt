@@ -1,9 +1,9 @@
-with open('cri.txt') as f:
+with open('input.txt') as f:
     s = f.readlines()
 
-with open('dec.txt') as f:
+with open('output') as f:
     t = f.readlines()
-f = open('output',"w")
+f = open('out',"w")
 
 n = len(s)
 r = s[0]
